@@ -1,0 +1,906 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "default",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Age"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Age"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "AMH (ng/mL)"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "AMH (ng/mL)"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Day"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Day"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Avg_Follicle_Size_mm"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Avg_Follicle_Size_mm"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Follicle_Count"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Follicle_Count"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Estradiol_pg_mL"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Estradiol_pg_mL"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Progesterone_ng_mL"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Progesterone_ng_mL"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "AMH (ng/mL)_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "AMH (ng/mL)_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Estradiol_pg_mL_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Estradiol_pg_mL_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Progesterone_ng_mL_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Progesterone_ng_mL_missing"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Age_Risk"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Age_Risk"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Low_AMH"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Low_AMH"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "E2_per_Follicle"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "E2_per_Follicle"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "High_E2"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "High_E2"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "High_Progesterone"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "High_Progesterone"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Hormone_Ratio"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Hormone_Ratio"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Age_Group_30-35"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Age_Group_30-35"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Age_Group_35-40"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Age_Group_35-40"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Age_Group_40+"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Age_Group_40+"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "AMH_Level_Normal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "AMH_Level_Normal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "AMH_Level_High"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "AMH_Level_High"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Day_Zone_Mid"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Day_Zone_Mid"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Day_Zone_Ideal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Day_Zone_Ideal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Day_Zone_Late"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Day_Zone_Late"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Follicle_Response_Normal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Follicle_Response_Normal"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Follicle_Response_Good"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Follicle_Response_Good"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Follicle_Response_High"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Follicle_Response_High"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "target"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "target"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Age",
+        "max_value": 4.328179101076752e-16,
+        "min_value": 2.8854527340511685e-16
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Age",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "AMH (ng/mL)",
+        "max_value": 5.41022387634594e-17,
+        "min_value": 3.6068159175639607e-17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "AMH (ng/mL)",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Day",
+        "max_value": 5.788939547690156e-16,
+        "min_value": 3.8592930317934376e-16
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Day",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Avg_Follicle_Size_mm",
+        "max_value": 16.22761421319797,
+        "min_value": 10.818409475465314
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Avg_Follicle_Size_mm",
+        "max_value": 4.127316162802973,
+        "min_value": 1.375772054267658
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Count",
+        "max_value": -1.9476805954845384e-16,
+        "min_value": -1.2984537303230258e-16
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Count",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Estradiol_pg_mL",
+        "max_value": -6.131587059858732e-17,
+        "min_value": -4.0877247065724886e-17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Estradiol_pg_mL",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Progesterone_ng_mL",
+        "max_value": -3.173998007456285e-16,
+        "min_value": -2.1159986716375233e-16
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Progesterone_ng_mL",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "AMH (ng/mL)_missing",
+        "max_value": 0.03654822335025381,
+        "min_value": 0.02436548223350254
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "AMH (ng/mL)_missing",
+        "max_value": 0.2579794284990435,
+        "min_value": 0.0859931428330145
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Estradiol_pg_mL_missing",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Estradiol_pg_mL_missing",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Progesterone_ng_mL_missing",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Progesterone_ng_mL_missing",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Age_Risk",
+        "max_value": 0.49746192893401014,
+        "min_value": 0.3316412859560068
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Age_Risk",
+        "max_value": 0.7395926803818931,
+        "min_value": 0.24653089346063103
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Low_AMH",
+        "max_value": 0.06091370558375634,
+        "min_value": 0.04060913705583757
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Low_AMH",
+        "max_value": 0.32954412286794443,
+        "min_value": 0.10984804095598148
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "E2_per_Follicle",
+        "max_value": 6.492268651615129e-17,
+        "min_value": 4.328179101076753e-17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "E2_per_Follicle",
+        "max_value": 1.501270648258346,
+        "min_value": 0.5004235494194487
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "High_E2",
+        "max_value": 0.33908629441624366,
+        "min_value": 0.22605752961082912
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "High_E2",
+        "max_value": 0.675947049451779,
+        "min_value": 0.22531568315059297
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "High_Progesterone",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "High_Progesterone",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Hormone_Ratio",
+        "max_value": -2.164089550538376e-17,
+        "min_value": -1.4427263670255842e-17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Hormone_Ratio",
+        "max_value": 1.5012706482583456,
+        "min_value": 0.5004235494194486
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_30-35",
+        "max_value": 0.534010152284264,
+        "min_value": 0.3560067681895093
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_30-35",
+        "max_value": 0.7460815646495149,
+        "min_value": 0.24869385488317164
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_35-40",
+        "max_value": 0.38578680203045684,
+        "min_value": 0.2571912013536379
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_35-40",
+        "max_value": 0.7011654363365081,
+        "min_value": 0.23372181211216936
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_40+",
+        "max_value": 0.03045685279187817,
+        "min_value": 0.020304568527918784
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Age_Group_40+",
+        "max_value": 0.2361176129484096,
+        "min_value": 0.0787058709828032
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "AMH_Level_Normal",
+        "max_value": 0.7532994923857869,
+        "min_value": 0.5021996615905245
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "AMH_Level_Normal",
+        "max_value": 0.7257211966518022,
+        "min_value": 0.24190706555060074
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "AMH_Level_High",
+        "max_value": 0.38578680203045684,
+        "min_value": 0.2571912013536379
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "AMH_Level_High",
+        "max_value": 0.7011654363365081,
+        "min_value": 0.23372181211216936
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Mid",
+        "max_value": 0.3979695431472081,
+        "min_value": 0.26531302876480545
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Mid",
+        "max_value": 0.706802531449479,
+        "min_value": 0.235600843816493
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Ideal",
+        "max_value": 0.07309644670050762,
+        "min_value": 0.04873096446700508
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Ideal",
+        "max_value": 0.35906184219651094,
+        "min_value": 0.1196872807321703
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Late",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Day_Zone_Late",
+        "max_value": 0.0,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_Normal",
+        "max_value": 0.5908629441624365,
+        "min_value": 0.39390862944162436
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_Normal",
+        "max_value": 0.7505482810511017,
+        "min_value": 0.25018276035036724
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_Good",
+        "max_value": 0.515736040609137,
+        "min_value": 0.34382402707275805
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_Good",
+        "max_value": 0.7431959281099095,
+        "min_value": 0.24773197603663652
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_High",
+        "max_value": 0.0060913705583756335,
+        "min_value": 0.0040609137055837565
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "Follicle_Response_High",
+        "max_value": 0.10668928464780124,
+        "min_value": 0.03556309488260041
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "target",
+        "max_value": 0.07715736040609136,
+        "min_value": 0.051438240270727575
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_stdev_to_be_between",
+      "kwargs": {
+        "column": "target",
+        "max_value": 0.36823568832250514,
+        "min_value": 0.12274522944083505
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.17.22"
+  }
+}

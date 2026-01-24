@@ -1,0 +1,20 @@
+{
+  "python.analysis.indexing": false,
+  "python.analysis.autoSearchPaths": false,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  },
+
+  "files.watcherExclude": {
+    "**/venv/**": true,
+    "**/airflow_venv/**": true,
+    "**/__pycache__/**": true
+  },
+
+  "files.exclude": {
+    "**/venv/**": true,
+    "**/airflow_venv/**": true
+  }
+}
