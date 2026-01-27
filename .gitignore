@@ -1,8 +1,22 @@
+# Virtual environments
 venv/
+venv310/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Environment variables
 .env
+
+# ML artifacts
 mlruns/
-*.log
-.airflow/
-*.db
+models/
+*.pkl
+*.joblib
+
+# Data & logs
 data/
+logs/
+airflow/logs/
+
