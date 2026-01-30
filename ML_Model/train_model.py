@@ -51,6 +51,7 @@ from Features.feature_engineering import apply_feature_engineering  # Transforms
 from Features.preprocessing import apply_preprocessing               # Scales & encodes features
 from Clustering.patient_clustering import apply_clustering          # KMeans clustering for patient segmentation
 from Database.postgres import fetch_trigger_day_data, save_dataframe_to_postgres  # Database I/O operations
+from Features.eda import run_eda_ivf   # or wherever you saved the function
 
 # =============================
 # STEP 1: LOAD DATA FROM DATABASE
@@ -66,6 +67,23 @@ print("=" * 60)
 # Returns pandas DataFrame with all patient records from ivf_data table
 df = fetch_trigger_day_data(table_name="ivf_data")
 print(f"✓ Data loaded: {df.shape[0]} rows × {df.shape[1]} columns")
+
+# =============================
+# step 1.5 EXPLORATORY DATA ANALYSIS (EDA)
+# =============================
+# Purpose:
+# - Understand raw data quality
+# - Detect missing values, outliers, correlations
+# - Generate audit artifacts BEFORE any transformation
+# - Prevent silent data issues from propagating downstream
+
+eda_results = run_eda_ivf(
+    df,
+    target_col="Trigger_Recommended (0/1)",
+    save_reports=True,
+    show_plots=False   # Set to True to visualize plots
+)
+
 
 # =============================
 # STEP 2: FEATURE ENGINEERING
@@ -327,7 +345,7 @@ print(f"  Test Samples: {X_test.shape[0]}")
 print(f"  Total Features (including cluster): {X_train.shape[1]}")
 
 print("\n Next Steps:")
-print("  1. View MLflow Results: mlflow ui")
+print("  1. View MLflow Results: mlflow ui --port 5050")
 print("     → Compare metrics across training runs")
 print("  2. Deploy FastAPI Server: python Api/main.py")
 print("     → Start REST API service for real-time predictions")
