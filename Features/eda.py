@@ -58,7 +58,18 @@ def run_eda_ivf(
     # =============================
     # Column Classification
     # =============================
-    num_cols = df.select_dtypes(include=np.number).columns.tolist()
+    
+    # Select only continuous numerical features for outlier analysis
+    # - Exclude target column to prevent data leakage
+    # - Exclude binary / low-cardinality columns (e.g., 0/1 flags)
+    # - IQR-based outlier detection is meaningful only for continuous variables
+    num_cols = [
+    col for col in df.select_dtypes(include=np.number).columns
+    if df[col].nunique() > 2 and col != target_col
+]
+    # Select categorical features
+    # - Includes object and category dtypes
+    # - Useful for value counts and distribution analysis
     cat_cols = df.select_dtypes(include=["object", "category"]).columns.tolist()
 
     # =============================
